@@ -9,7 +9,8 @@ const searchBook = (event) => {
     fetch(url)
     .then(response => response.json())
     .then(data => displaySearchResult(data.docs))
-
+    
+    
 }
     // Display Property
 const displaySearchResult = docs => {
